@@ -21,5 +21,4 @@ else {
    $response->setStatusCode(404);
    $response->setContent('Nie ma takiej strony');
 }
-
 $response->send();
