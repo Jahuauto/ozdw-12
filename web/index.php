@@ -4,9 +4,12 @@ require __DIR__ . '/../vendor/autoload.php';
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Routing;
 
 $request = Request::createFromGlobals();
-//$controller = $request->get('controller', 'home');
+$routes = include __Dir__ . '/../src/app/routes.php';
+
+
 $path = $request->getPathInfo();
 
 
