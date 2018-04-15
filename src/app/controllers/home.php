@@ -1,6 +1,6 @@
 <?php
 echo $page;
 echo "-----";
-echo $nazwa;
+echo $name;
 echo "-----";
 echo __FILE__;
